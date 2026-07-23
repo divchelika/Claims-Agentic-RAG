@@ -43,24 +43,35 @@ Instead of a single LLM call, the system orchestrates multiple AI components:
 
 ---
 
-## Screenshots
+## 📸 Screenshots
 
-### Home
+### Policy Agent
 
-![Home](docs/screenshots/home.png)
+![Policy Agent](docs/screenshots/Policy_Agent.png)
 
 ---
 
-### Ask Questions
+### Medical Agent
 
-![Query](docs/screenshots/query.png)
+![Medical Agent](docs/screenshots/Medical_Agent.png)
 
 ---
 
 ### Conversation Memory
 
-![Memory](docs/screenshots/memory.png)
+![Conversation Memory](docs/screenshots/Conversation_Memory.png)
 
+---
+
+### Hallucination Prevention
+
+![Hallucination Prevention](docs/screenshots/Hallucination_Prevention.png)
+
+---
+
+### Medical Guideline Retrieval
+
+![Medical Guideline](docs/screenshots/Medical_Guideline.png)
 ---
 
 ### Swagger API
