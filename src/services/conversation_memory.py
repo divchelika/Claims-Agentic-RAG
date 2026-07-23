@@ -1,0 +1,32 @@
+from src.models.conversation import Message
+
+
+class ConversationMemory:
+    """
+    Stores the conversation history.
+    """
+
+    def __init__(self):
+        self.messages = []
+
+    def add_user_message(self, message: str):
+        self.messages.append(
+            Message(
+                role="user",
+                content=message,
+            )
+        )
+
+    def add_assistant_message(self, message: str):
+        self.messages.append(
+            Message(
+                role="assistant",
+                content=message,
+            )
+        )
+
+    def get_history(self):
+        return self.messages
+
+    def clear(self):
+        self.messages.clear()
